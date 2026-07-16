@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2024-05-26T01:19:22.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 AVG/124.0.0.0" etag="CoNpfffCezXhuMloT0_-" version="24.4.8" type="google">
+  <diagram name="Página-1" id="B_Y8nIFJFLH4omY8zvdr">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;UC9&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;:Gestor&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;:Sistema&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="100" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;:Sistema ELO&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40.5" y="400" as="sourcePoint" />
+            <mxPoint x="40" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-8" value="registrarResultadoTorneio(designação)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0164" width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="220" as="sourcePoint" />
+            <mxPoint x="330" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-10" value="lista de encontros sem resultados" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="280" as="sourcePoint" />
+            <mxPoint x="40.5" y="279.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-11" value="indicarDadosEncontro(numEncontro, resultado)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40.5" y="310" as="sourcePoint" />
+            <mxPoint x="330" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-12" value="confirmar dados válidos" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="HOpoRl4V0zdSzINOYu2E-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="40" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-13" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;atualizarPontuação(numRegistoOp1, numRegistroOp2, resultado)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=center;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="329.5" y="370" as="sourcePoint" />
+            <mxPoint x="659.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-18" value="&lt;b&gt;LOOP&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="230" width="720" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HOpoRl4V0zdSzINOYu2E-19" value="até não haver mais encontros sem resultados ou o Gestor indicar que quer parar" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="520" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
